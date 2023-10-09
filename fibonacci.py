@@ -1,11 +1,11 @@
-num= int(input("Enter a number"))
-n1, n2= 0, 1
-sum =0
-if num <=0:
-    print('please enter a number greater than 0')
-else:
-    for i in range(0, num):
-        print(sum, end=" ")
-        n1=n2
-        n2=sum
-        sum= n1 + n2
+def fibonacci(n):
+    fibo_series = []
+    a, b = 0, 1
+    for _ in range(n):
+        fib_series.append(a)
+        a, b = b, a + b
+    return fib0_series
+
+n = int(input("Enter the number of terms: "))
+result = fibonacci(n)
+print(result)
